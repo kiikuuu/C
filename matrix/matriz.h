@@ -2,7 +2,7 @@
 #define MATRIZ_H
 
 #include <stdbool.h>
-#include "/home/izac/Documents/C/implementacoes/mallocc/mallocc.h"
+#include "../mallocc/mallocc.h"
 
 double** initMatriz( const size_t n);
 bool setMatrizTriangular(double** m, const size_t n , int* fator );
